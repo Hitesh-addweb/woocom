@@ -1,0 +1,11 @@
+2019-09-09T12:09:24+00:00 CRITICAL Uncaught Error: Call to undefined function MY_BOOKS_DIR_PATH() in /var/www/html/html/newtheme/wp-content/plugins/wc-addbutton/wc-addbutton.php:32
+Stack trace:
+#0 /var/www/html/html/newtheme/wp-includes/class-wp-hook.php(284): add_custom_button()
+#1 /var/www/html/html/newtheme/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/html/newtheme/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /var/www/html/html/newtheme/wp-content/plugins/woocommerce/templates/single-product/add-to-cart/simple.php(49): do_action('woocommerce_aft...')
+#4 /var/www/html/html/newtheme/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/var/www/html/h...')
+#5 /var/www/html/html/newtheme/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1581): wc_get_template('single-product/...')
+#6 /var/www/html/html/newtheme/wp-includes/class-wp-hook.php(286): woocommerce_simple_add_to_cart('')
+#7 /var/www/html/html/newtheme/wp-includes/class-wp-hook.php(310): WP_H in /var/www/html/html/newtheme/wp-content/plugins/wc-addbutton/wc-addbutton.php on line 32
+

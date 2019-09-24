@@ -1,0 +1,31 @@
+/*Menu Font Setting*/
+					@media (min-width:992px) {
+						#navigation .nav.navbar-nav a {
+							font-size: 18px;
+						}
+						header .navbar-default #navigation .navbar-nav li ul.sub-menu li a, header .navbar-default #navigation .navbar-nav li ul.children li a{
+							font-size: 14px;
+						}
+						/*h1 to p typography*/
+						h1 {
+							font-size: 40px;
+						}
+						h2 {
+							font-size: 36px;
+						}
+						h3 {
+							font-size: 32px;
+						}
+						h4 {
+							font-size:28px;
+						}
+						h5 {
+							font-size: 24px;
+						}
+						h6 {
+							font-size: 20px;
+						}
+						p {
+							font-size:16px;
+						}
+					}

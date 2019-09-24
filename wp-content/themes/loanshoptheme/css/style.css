@@ -1,0 +1,223 @@
+/*
+Theme Name:LoanShop
+Description:Premium WordPress Theme Developed by webmasterdriver.
+Author: webmasterdriver
+Theme URI: http://themes.webmasterdriver.net/loanshop/
+Version: 1.0
+Author URI: https://themeforest.net/user/webmasterdriver
+License:GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Description:this theme create on 2017 for WordPress.
+Tags:one-column, two-columns, right-sidebar, left-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+Text Domain: loanshop
+*/
+/*===========================
+ =  Table of CSS	            
+ 
+ 	1. General-Code
+	2. VC-CSS
+	3. WordPress Default Theme Css
+	                                      
+===========================*/
+
+/*-----------------------
+	1. General-Code
+--------------------------*/
+.section-header {
+  float: none !important;
+  text-align: center;
+}
+.dark_mask::after {
+  background: rgba(0, 46, 91, 0.8) none repeat scroll 0 0;
+  content: "";
+  display: block !important;
+  height: 100% !important;
+  left: 0;
+  position: absolute;
+  top: 0;
+  visibility: visible !important;
+  width: 100%;
+}
+.dark_mask > * {
+  position: relative;
+  z-index: 1;
+}
+.post_meta {text-transform: capitalize;}
+.post_meta a{ color:#fb2351;}
+.owl-carousel .owl-item{ direction:ltr;}
+.loan-template-default .separator.mid_sep, .loan-template-default .separator_extra, .service-template-default .separator.mid_sep, .service-template-default .separator_extra {display: none;}
+.page-template-coming-soon #header, .page-template-coming-soon #contact_info, .page-template-coming-soon footer#footer {display: none;}
+
+.loanshop-tabs .vc_toggle {
+  background: #f6f6f6 none repeat scroll 0 0;
+  border: 1px solid #ebebeb;
+  margin: 0 0 15px;
+  padding: 20px 30px;
+}
+.loanshop-tabs .vc_tta-panels {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+  border: medium none !important;
+}
+.loanshop-tabs .vc_tta-panel-body {
+  border: medium none !important;
+  padding: 0 !important;
+  background:none !important;
+}
+
+
+/*--------------
+	2. VC-CSS
+---------------------*/
+.vc_toggle_title h4 {
+  font-size: 20px;
+  margin: 0 auto;
+  font-weight:400;
+}
+.vc_tta-color-grey.vc_tta-style-modern .vc_tta-tab > a {
+  background-color: #f2f2f2 !important;
+  border: medium none !important;
+  color: #002e5b !important;
+  font-weight: 700;
+}
+.vc_tta-color-grey.vc_tta-style-modern .vc_tta-tab.vc_active > a {
+  background-color: #fb2351 !important;
+  color: #fff !important;
+}
+.vc_tta.vc_general .vc_tta-tab > a {
+  padding: 10px 30px !important;
+}
+.loanshop-gallery {
+  padding-top: 60px;
+}
+.loanshop-gallery .wpb_gallery_heading {
+  color: #002e5b;
+  font-size: 20px;
+}
+.loanshop-gallery .isotope-item a {
+  padding-right: 25px;
+  padding-bottom:25px;
+}
+.vc_toggle_content {
+  background: #ffffff none repeat scroll 0 0;
+  padding: 25px !important;
+}
+.vc_toggle_active .vc_toggle_title h4, .vc_toggle_title h4:hover {
+	color:#fb2351;
+}	
+.vc_toggle_default.vc_toggle_active .vc_toggle_icon, 
+.vc_toggle_default .vc_toggle_title:hover .vc_toggle_icon, 
+.vc_toggle_default .vc_toggle_title:hover .vc_toggle_icon::before, 
+.vc_toggle_default .vc_toggle_title:hover .vc_toggle_icon::after {
+	background:#fb2351;
+	border-color:#fb2351;
+}
+.vc_btn3.vc_btn3-color-grey.vc_btn3-style-flat:focus, .vc_btn3.vc_btn3-color-grey.vc_btn3-style-flat:hover, .vc_btn3.vc_btn3-color-grey:focus, .vc_btn3.vc_btn3-color-grey:hover {
+  background: #e60a39 !important;
+  color: #fff !important;
+}
+
+/*-----------------------------*/
+
+/* 3. WordPress Default Theme Css
+
+/*-----------------------------*/
+
+.wp-caption {
+	background: #fff;
+	border: 1px solid #f0f0f0;
+	max-width: 96%; /* Image does not overflow the content area */
+	padding: 5px 3px 10px;
+	text-align: center;
+}
+.wp-caption.alignnone {
+	margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+	margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+	margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+	border: 0 none;
+	height: auto;
+	margin: 0;
+	max-width: 98.5%;
+	padding: 0;
+	width: auto;
+}
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	margin: 0;
+	padding: 0 4px 5px;
+}
+.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+.aligncenter, div.aligncenter {
+	display: block;
+	margin: 5px auto;
+}
+.screen-reader-text {
+	display: none;
+}
+.fw-wrap-search-form {
+	display:none;
+}
+.wp-caption-text {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 1.5;
+	margin: 9px 0;
+}
+.sticky .entry-date {
+	display: none;
+}
+.gallery-caption {
+	background-color: rgba(0, 0, 0, 0.7);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0;
+	max-height: 50%;
+	opacity: 0;
+	padding: 6px 8px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: left;
+	width: 100%;
+}
+.gallery-caption:before {
+	content: "";
+	height: 100%;
+	min-height: 49px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.bypostauthor > article .fn:before {
+	margin: 0 2px 0 -2px;
+	position: relative;
+	top: -1px;
+}
+.bypostauthor > article .fn:before,  .comment-edit-link:before,  .comment-reply-link:before,  .comment-reply-login:before,  .comment-reply-title small a:before,  .contributor-posts-link:before,  .menu-toggle:before,  .search-toggle:before,  .slider-direction-nav a:before,  .widget_twentyfourteen_ephemera .widget-title:before {
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font: normal 16px/1 Genericons;
+	text-decoration: inherit;
+	vertical-align: text-bottom;
+}

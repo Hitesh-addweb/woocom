@@ -1,0 +1,47 @@
+.btn, .back-top, .icon_div, input[type="submit"], .breadcrumb, .pagination .page-number.current, .pagination .page-number:hover, .pagination .page-number:focus, .pagination .page-numbers .page-numbers:hover, .pagination .page-numbers .page-numbers:focus, .page-links a .page-number:hover, .page-links a .page-number:focus, .pagination .page-number.current, .pagination .page-numbers .page-numbers.current, .quote_btn a, .slider-handle, .slider-selection, .loan_top_menu ul li a:hover, .loan_top_menu ul li a:focus, .loan_top_menu ul li.active a, .brochure_btn:hover, .post_tags a:hover, .tagcloud a:hover, .wp_nav_links a:hover, .wp_nav_links a:focus, .app_link a:hover, #interest_rate_slider .owl-nav div:hover::after, .follow_us ul li a:hover, .vc_toggle_default.vc_toggle_active .vc_toggle_icon, .vc_toggle_default .vc_toggle_title:hover .vc_toggle_icon, .vc_toggle_default .vc_toggle_title:hover .vc_toggle_icon::before, .vc_toggle_default .vc_toggle_title:hover .vc_toggle_icon::after, .vc_btn3.vc_btn3-size-md{background: #fb2351 none repeat scroll 0 0;}
+
+
+
+				a, .post_tags a, .tagcloud a, .btn.btn-link, .footer_links ul li a:hover, .post_info h5 a:hover, .sidebar_widgets > ul > li > a:hover, .sidebar_widgets > ul > li > .children a:hover, .sidebar_widgets #menu-testing-menu a:hover, .footer_bottom ul li a:hover, .vc_toggle_active .vc_toggle_title h4, .vc_toggle_title h4:hover, .vc_toggle_default.vc_toggle_active .vc_toggle_icon, .vc_toggle_default .vc_toggle_title:hover .vc_toggle_icon, .vc_toggle_default .vc_toggle_title:hover .vc_toggle_icon::before, .vc_toggle_default .vc_toggle_title:hover .vc_toggle_icon::after, .loan_info h5 a:hover, .btn-link, .check_mark ul li::after, .panel-group .panel .panel-title a:hover, .panel-group .panel .panel-title a, #contact_info a:hover, #what_we_do h5 a:hover, .services_wrap h5 a:hover, .coming_soon_wrap .follow_us a:hover {
+					color:#fb2351;
+				}
+
+
+				.owl-carousel.owl-theme .owl-dots .owl-dot.active span, .owl-carousel.owl-theme .owl-dots .owl-dot:hover span, #testimonial_slider .owl-carousel.owl-theme .owl-dots .owl-dot.active span, #testimonial_slider .owl-carousel.owl-theme .owl-dots .owl-dot:hover span, .follow_us ul li a:hover, .app_link a:hover, .tagcloud a, .check_mark ul li::after, .vc_toggle_default.vc_toggle_active .vc_toggle_icon, .vc_toggle_default .vc_toggle_title:hover .vc_toggle_icon, .vc_toggle_default .vc_toggle_title:hover .vc_toggle_icon::before, .vc_toggle_default .vc_toggle_title:hover .vc_toggle_icon::after {
+					border-color: #fb2351;
+				}
+
+				.vc_tta-color-grey.vc_tta-style-modern .vc_tta-tab.vc_active > a {
+					background-color: #fb2351 !important;
+				}
+
+				/*Hover Color*/
+				.btn:hover, .btn:focus, .back-top:hover, input[type="submit"]:hover, .action_btn .btn.btn-color:hover {
+					background: #e60a39 ;
+				}
+				a:hover, a:focus{
+					color:#e60a39}
+					.vc_btn3.vc_btn3-color-grey.vc_btn3-style-flat:focus, .vc_btn3.vc_btn3-color-grey.vc_btn3-style-flat:hover, .vc_btn3.vc_btn3-color-grey:focus, .vc_btn3.vc_btn3-color-grey:hover {
+						background: #e60a39 !important;
+					}
+
+
+					/*Secondary Color*/
+					#interest_rate_slider .owl-nav div::after, #our_team .box-wrap:hover .team_info, .loan_top_menu, .btn.btn-color, .sidebar_menu ul li.active a, .sidebar_menu ul li:hover a, .sidebar_menu .current-menu-item a, .emi_amount {
+						background: #024a90;
+					}
+					.emi_info h2 {
+						color: #024a90 !important;
+					}
+					.secondary-bg {
+						background-color: #024a90 !important;
+					}
+					.heading_bg::after {
+						border-color: transparent transparent transparent #024a90;
+					}
+
+					/*Drak Layer*/
+					.dark_mask::after, .dark-overlay, .team_contact, #portfolio_slider .item:hover .portfolio_image {
+						background: rgba(0,0,0,0.6);
+					}
+				
