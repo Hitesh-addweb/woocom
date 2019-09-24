@@ -12,21 +12,18 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+if ( 
+  in_array( 
+    'woocommerce/woocommerce.php', 
+    apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) 
+  ) 
+) {
 
 add_action( 'woocommerce_before_add_to_cart_button', 'add_fields_before_add_to_cart' );
 	function add_fields_before_add_to_cart( ) {
 	?>
 		<table>
-			<!-- <tr>
-				<td>
-		
-					<?php //_e( "Name:", "aoim"); ?>
-		
-				</td>
-				<td>
-					<input type = "text" name = "customer_name" id = "customer_name" placeholder = "Name on Gift Card">
-				</td>
-			</tr> -->
+			
 			<tr>
 				<td>
 					<?php _e( "Message:", "aoim"); ?>
@@ -77,4 +74,9 @@ function add_order_item_meta ( $item_id, $values ) {
 		$custom_data  = $values [ 'custom_data' ];
 		wc_add_order_item_meta( $item_id, 'Message', $custom_data['customer_message'] );
 	}
+}
+
+} else {
+
+  echo 'Custom-Woocom requires woocommerce to be activated';
 }
